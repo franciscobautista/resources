@@ -7,7 +7,7 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       t.datetime :last_access
       t.integer :facebook_id
       t.integer :twitter_id
-
+      t.string :type
       t.timestamps
     end
   end
